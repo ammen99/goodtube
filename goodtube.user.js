@@ -4,12 +4,11 @@
 // @version      3.001
 // @description  Removes 100% of Youtube ads.
 // @author       GoodTube
-// @updateURL    https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
-// @downloadURL  https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
+// @updateURL    https://github.com/ammen99/goodtube/raw/refs/heads/main/goodtube.user.js
+// @downloadURL  https://github.com/ammen99/goodtube/raw/refs/heads/main/goodtube.user.js
 // @match        *://m.youtube.com/*
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
-// @match        *://*.wikipedia.org/*
 // @icon         https://cdn-icons-png.flaticon.com/256/1384/1384060.png
 // @run-at       document-start
 // ==/UserScript==
@@ -57,7 +56,7 @@
 		loadAttempts++;
 
 		// Load GoodTube
-		fetch('https://raw.githubusercontent.com/goodtube4u/goodtube/refs/heads/main/goodtube.js')
+		fetch('https://raw.githubusercontent.com/ammen99/goodtube/refs/heads/main/goodtube.js')
 			// Success
 			.then(response => response.text())
 			.then(data => {

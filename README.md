@@ -31,7 +31,7 @@ Now scroll down and click `Details` next to the Tampermonkey extension. Then scr
 <br><br>
 **3. Install GoodTube**<br>
 Visit this link and press `Install` on the page that opens up:<br>
-https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
+https://github.com/ammen99/goodtube/raw/refs/heads/main/goodtube.user.js
 <br><br>
 **4. Restart your browser**
 <br><br>
